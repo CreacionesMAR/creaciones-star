@@ -114,106 +114,60 @@ body{
     align-items:center;
     padding-top:180px; /* controla qué tan arriba */
 }
-@media (max-width: 768px) {
+@media (max-width:768px){
 
-    body {
-        padding-top: 125px;
+    .navbar{
+        flex-direction:column;
+        height:auto;
+        padding:10px;
     }
 
-    /* NAVBAR */
-    .navbar {
-        height: 125px;
-        padding: 10px 15px;
-        flex-direction: column;
-        justify-content: center;
-        gap: 8px;
+    .nav-left{
+        flex-direction:column;
+        gap:10px;
     }
 
-    .nav-left {
-        width: 100%;
-        flex-direction: column;
-        gap: 8px;
+    .nav-left nav a{
+        display:block;
+        margin:5px 0;
     }
 
-    .logo-text {
-        font-size: 20px;
-        letter-spacing: 4px;
+    .overlay h1{
+        font-size:28px;
     }
 
-    /* MENÚ */
-    .nav-left nav {
-        width: 100%;
-        justify-content: center;
-        gap: 15px;
-    }
-
-    .nav-left nav a {
-        font-size: 13px;
-        margin: 0;
-    }
-
-    /* WHATSAPP */
-    .whatsapp-btn {
-        padding: 8px 16px;
-        font-size: 13px;
-    }
-
-    /* LOGO */
-    .nav-right .logo-img {
-        height: 50px;
-    }
-
-    /* HERO */
-    .hero {
-        height: 70vh;
-        min-height: 520px;
-        background-position: center;
-    }
-
-    /* TEXTO */
-    .overlay {
-        padding: 70px 18px 30px;
-        justify-content: flex-start;
-    }
-
-    .overlay h1 {
-        font-size: clamp(27px, 7vw, 34px);
-        line-height: 1.15;
-        max-width: 95%;
-    }
-
-    .overlay p {
-        font-size: 16px;
-        line-height: 1.4;
-        max-width: 95%;
-        margin-top: 18px;
+    .overlay p{
+        font-size:16px;
     }
 }
+@media (max-width:768px){
 
-/* =========================
-   CELULARES MUY PEQUEÑOS
-========================= */
-
-@media (max-width: 400px) {
-
-    .nav-left nav {
-        gap: 9px;
+    .navbar{
+        flex-direction:column;
+        height:auto;
+        padding:10px;
     }
 
-    .nav-left nav a {
-        font-size: 12px;
+    .nav-left{
+        flex-direction:column;
+        gap:10px;
     }
 
-    .overlay {
-        padding-top: 55px;
+    .nav-left nav a{
+        display:block;
+        margin:5px 0;
     }
 
-    .overlay h1 {
-        font-size: 26px;
+    .nav-right{
+        display:none;
     }
 
-    .overlay p {
-        font-size: 15px;
+    .overlay h1{
+        font-size:28px;
+    }
+
+    .overlay p{
+        font-size:16px;
     }
 }
 .mission-box p{
