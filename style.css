@@ -135,6 +135,7 @@ body{
         display:none;
     }
     .overlay h1{
+        margin-top: 25%;
         font-size:28px;
     }
 
