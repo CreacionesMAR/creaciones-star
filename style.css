@@ -179,6 +179,27 @@ body{
 .btn-mission:hover{
     background:#a81f1f;
 }
+@media (max-width:768px){
+    .mission-box{
+    bottom:3px;
+    right:8px;
+    padding:7px;
+    border-radius:5px;
+    width:113px;
+    }
+    .mission-box p{
+    font-size:3.5px;
+    line-height:.5;
+    margin-bottom:5px;
+    }
+    .btn-mission{
+    display:inline-block;
+    margin-top:5px;
+    padding:4px 4px;
+    border-radius:2px;
+    font-size:5px;
+    }
+}
 .trabajos{
     padding:60px 40px;
     text-align:center;
