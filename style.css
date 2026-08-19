@@ -106,14 +106,6 @@ body{
     margin-top:15px;
     font-size:20px;
     color:#ddd;
-}
-.overlay{
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-start; /* antes era center */
-    align-items:center;
-    padding-top:180px; /* controla qué tan arriba */
-}
 @media (max-width:768px){
 
     .navbar{
@@ -139,7 +131,6 @@ body{
     .overlay p{
         font-size:16px;
     }
-}
 @media (max-width:768px){
 
     .navbar{
@@ -170,6 +161,7 @@ body{
         font-size:16px;
     }
 }
+}
 .mission-box{
     position:absolute;
     bottom:10px;
@@ -182,6 +174,8 @@ body{
     box-shadow:0 10px 30px rgba(0,0,0,0.3);
     z-index:5;
 }
+
+/* TEXTO */
 .mission-box p{
     font-size:14px;
     line-height:1.5;
