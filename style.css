@@ -180,25 +180,28 @@ body{
     background:#a81f1f;
 }
 @media (max-width:768px){
+
     .mission-box{
-    bottom:3px;
-    right:8px;
-    padding:7px;
-    border-radius:5px;
-    width:113px;
+        bottom:15px;
+        right:10px;
+        padding:12px;
+        border-radius:10px;
+        width:180px;
     }
+
     .mission-box p{
-    font-size:3.5px;
-    line-height:.5;
-    margin-bottom:5px;
+        font-size:10px;
+        line-height:1.3;
+        margin-bottom:10px;
     }
+
     .btn-mission{
-    display:inline-block;
-    margin-top:5px;
-    padding:4px 4px;
-    border-radius:2px;
-    font-size:5px;
+        margin-top:8px;
+        padding:8px 10px;
+        border-radius:6px;
+        font-size:9px;
     }
+
 }
 .trabajos{
     padding:60px 40px;
