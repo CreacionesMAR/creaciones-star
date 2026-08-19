@@ -170,6 +170,18 @@ body{
         font-size:16px;
     }
 }
+.mission-box{
+    position:absolute;
+    bottom:10px;
+    right:30px;
+    background:white;
+    color:#222;
+    padding:25px;
+    border-radius:15px;
+    width:450px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+    z-index:5;
+}
 .mission-box p{
     font-size:14px;
     line-height:1.5;
